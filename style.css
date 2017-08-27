@@ -1,0 +1,310 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+.contain{
+	width:100%;
+}
+/*头部*/
+.header,.footer{
+	width:90%;
+	min-width: 1024px;
+	height: 60px;
+	background: rgb(7,202,203);
+	margin:0 auto;
+}
+.header{
+	
+}
+.logo{
+	float:left;
+	padding-left:160px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.nav{
+
+}
+.nav ul{
+	float:right;
+	padding-right: 80px;
+}
+.nav ul li{
+	list-style-type: none;
+	float:left;
+	margin:0 15px;
+}
+.nav ul li a{
+	text-decoration: none;
+	line-height: 60px;
+	color:#fff;
+	/*font-family: "微软雅黑";*/
+	font-weight: bold;
+	font-size: 10px;
+}
+/*banner区*/
+
+#main{
+	
+	max-width: 1200px;
+	height: 460px;
+	margin:10px auto;
+	border:5px solid #bbb;
+	position: relative;
+}
+/*图片*/
+#img{
+    
+}
+.normal{
+	display: none;
+	
+	max-width: 1200px;
+}
+.active{
+	display: block;
+}
+/*按钮*/
+.btn{
+	margin:10px auto;
+	display: block;
+}
+.prev{
+	position: absolute;
+	width: 36px;
+	height: 50px;
+	line-height: 30px;
+	left:0px;
+	top:215px;
+/*	background: #000;
+	opacity: 0.5;*/
+}
+.next{
+	position: absolute;
+	width: 36px;
+	height: 50px;
+	line-height: 30px;
+	right:0px;
+	top:215px;
+/*	background: #000;
+	opacity: 0.5;*/
+}
+.touch:hover{
+	background: #000;
+	opacity: 0.5;
+	cursor: pointer;
+}
+/*小圆点*/
+#dots{
+	width: 120px;
+	height: 15px;
+	position: absolute;
+	right:10px;
+	bottom:10px;
+}
+.dot{
+	width: 10px;
+	height: 10px;
+	margin:auto 5px;
+	float: left;
+	border-radius: 5px;
+	border:1px solid #fff;
+	background:#bbb;
+	cursor: pointer;
+}
+.dotac{
+	border:1px solid #bbb;
+	background:#fff;
+}
+/*about 区*/
+.about,.gallery{
+	width:90%;
+	margin:0 auto;
+	text-align: center;
+	/*border:1px rgb(7,200,201) solid;*/
+}
+/*.about*/ .line{
+	width:20px;
+	height:2px;
+	margin:5px auto;
+	background:rgb(7,200,201);
+}
+.about h2,.gallery h2{
+	padding:10px 0;
+}
+.about p,.gallery p{
+	width:30%;
+	margin:0 auto;
+	font-size: 6px;
+}
+.about .stu_info{
+	width: 50%;
+	/*height: 500px;*/
+	margin-right: 50px;
+	height: 270px;
+	/*border:1px rgb(7,200,201) solid;*/
+	margin:10px auto;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.about .stu_info .title{
+	width:20%;
+	float:left;
+}
+.about .stu_info img{
+	width: 60%;
+	float:left;
+}
+.about .stu_info .num{
+	width:100px;
+	height: ;
+	border:1px rgb(7,200,201) solid;
+	float:right;
+	/*margin-right: -20px;*/
+
+	/*text-align: center;*/
+}
+.about .stu_info .num2{
+	margin-top: 20px;
+}
+ .num p{
+ 	width:50px;
+	margin:0 auto;
+}.about .stu_info .aboutwordtop{
+	width:260px;
+	padding:10px;
+	height: 150px;
+	border:2px #ececec solid;
+	position: absolute;
+	text-align: left;
+	top:80px;
+	left:0;
+	
+}
+.about .stu_info .aboutword{
+	width:260px;
+	padding:10px;
+	height: 150px;
+	border:2px #ececec solid;
+	position: absolute;
+	text-align: left;
+	top:80px;
+	left:0;
+	background: gray;
+	opacity: 0.5;
+}
+.about .stu_info .aboutwordtop .pword{
+	width: 100%;
+	padding:10px;
+}
+.about .stu_info .aboutwordtop .pbutt{
+	color: #fff;
+	background: #000;
+	margin:10px;
+	padding: 5px 10px;
+	border: none;
+}
+.about .aboutBtm{
+	width: 100%;
+	margin-top: 20px;
+	clear: both;
+	overflow: hidden;
+	
+}
+.about .aboutBtm .aboutlist{
+	width:25%;
+	height: 280px;
+	background: blue;
+	float:left;
+	background: rgb(7,202,203);
+	text-align: left;
+	color:#fff;
+	position: relative;
+}
+.about .aboutBtm .aboutlist .listimg{
+	width:100%;
+	height: 280px;
+}
+.about .aboutBtm .aboutlist .bttitle{
+	width: 90%;
+	padding:10px;
+	font-size: 13px;
+}
+.about .aboutBtm .aboutlist .btp{
+	width: 90%;
+	padding:10px;
+	font-size: 12px;
+	color: #eeeeee;
+}
+.about .aboutBtm .aboutlist .btt{
+	width: 90%;
+	padding: 12px;
+}
+.about .aboutBtm .aboutlist .triangle-left{
+	position: absolute;
+	top:135px;
+	right:0;
+	width: 0;
+	height: 0;
+	border: 15px  solid;
+	border-color: transparent rgb(7,202,203) transparent transparent;
+
+}
+.about .aboutBtm .aboutlist .triangle-right{
+	position: absolute;
+	top:135px;
+	left:0;
+	left
+	width: 0;
+	height: 0;
+	border: 15px solid;
+	border-color: transparent transparent transparent rgb(7,202,203);
+}
+.about .aboutBtm .aboutlist .pbutt{
+	color: #fff;
+	background: #000;
+	display: block;
+	margin:0 auto;
+	padding: 5px 10px;
+	border: none;
+}
+/*garrlery*/
+.gallery .show{
+	width: 60%;
+	margin:10px auto ;
+	
+	clear: both;
+	overflow: hidden;
+	
+}
+.gallery .show .course{
+	float:left;
+	width: 100%；
+
+
+}
+.gallery .show .course .pic{
+	width: 100%;
+	
+
+}
+.gallery .show .course .pic img{
+	width:210px;
+	height: 120px;
+}
+.gallery .show .course .picex{
+	width: 210px;
+	margin-bottom: 10px;
+	background: #000;
+	color:#fff;
+}
+/*footer*/
+.footer{
+	text-align: center;
+}
+.footer p{
+	line-height: 60px;
+	color: #fff;
+	font-size: 12px;
+}

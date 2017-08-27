@@ -1,10 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Simple Canvas Game</title>
-	</head>
-	<body>
-		<script src="js/game.js"></script>
-	</body>
+<head>
+	<meta charset="UTF-8">
+	<title>Carrier</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="top.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+ <div calss="contain">
+     <!-- 顶部 -->
+	<div class="header" id="header">
+	    <!-- logo -->
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+		<!-- 导航 -->
+		<div class="nav">
+			<ul>
+				<li><a href="">HOME</a></li>
+				<li><a href="">ABOUT</a></li>
+				<li><a href="">GALLERY</a></li>
+				<li><a href="">FACULTY</a></li>
+				<li><a href="">EVENTS</a></li>
+				<li><a href="">CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- banne区 -->
+	<div id="main">
+	    <!-- 图片 -->
+		<div id="img">
+			<img src="images/1.jpg" alt="" class="normal active">
+			<img src="images/2.jpg" alt="" class="normal">
+			<img src="images/3.jpg" alt="" class="normal">
+			<img src="images/4.jpg" alt="" class="normal">
+			<img src="images/5.jpg" alt="" class="normal">
+		</div>
+		<!-- 按钮 -->
+		<div class="prev touch"><img src="images/pre2.png" class="btn"></div>
+		<div class="next touch"><img src="images/pre.png" class="btn"></div>
+		<!-- 小圆点 -->
+		<div id="dots">
+			<div class="dot dotac"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+		</div>
+	</div>
+	
+	<!-- about区 -->
+	<div class="about">
+		<h2>ABOUT</h2>
+		<div class="line"></div>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industy's standard dummy text ever since the 1500s</p>
+		<div class="stu_info">
+			<h3 class="title">A WORD ABOUT US</h3>
+			<div class="abImg">
+				<img src="images/bb3.jpg">
+			</div>
+			<div class="num num1">
+				<h3>70000</h3>
+				<div class="line"></div>
+				<p>Students</p>
+			</div>
+			<div class="num num2">
+				<h3>600</h3>
+				<div class="line"></div>
+				<p>Faculty</p>
+			</div>
+			<div class="aboutword"></div>
+			<div class="aboutwordtop">
+				<p class="pword">
+				Praesent dignissim viverra est,sedbibendum ligula congue non.Sed ac niset felis gravida commodo?Suspendisse
+				eget ullamcorper ipsum.Suspendisse
+				diam amet</p>
+		<button type="" class="pbutt">EXPLORE</button>
+			</div>
+		</div>
+
+
+		<div class="aboutBtm">
+			<div class="aboutlist">
+				<img src="images/b1.jpg" class="listimg">
+				<div class="triangle-left"></div>
+			</div>
+			<!-- <div class="triangle-left"></div> -->
+			<div class="aboutlist">
+			    <h3 class="btt">Library</h3>
+			    <p class="bttitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+				<p class="btp">
+				Praesent dignissim viverra est,sedbibendum ligula congue non.Sed ac niset felis gravida commodo?Suspendisse
+				eget ullamcorper ipsum.Suspendisse
+				diam amet</p>
+				<input type="button" class="pbutt" value="EXPLORE" >
+			</div>
+			<div class="aboutlist">
+				<img src="images/b2.jpg" class="listimg">
+				<div class="triangle-left"></div>
+			</div>
+			<!-- <div class="triangle-left"></div> -->
+			<div class="aboutlist">
+			    <h3 class="btt">Computer Lab</h3>
+				<p class="bttitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+				<p class="btp">
+				Praesent dignissim viverra est,sedbibendum ligula congue non.Sed ac niset felis gravida commodo?Suspendisse
+				eget ullamcorper ipsum.Suspendisse
+				diam amet</p>
+				<input type="button" class="pbutt" value="EXPLORE" >
+
+			</div>
+			<div class="aboutlist">
+			    <h3 class="btt">Conference Hall</h3>
+				<p class="bttitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+				<p class="btp">
+				Praesent dignissim viverra est,sedbibendum ligula congue non.Sed ac niset felis gravida commodo?Suspendisse
+				eget ullamcorper ipsum.Suspendisse
+				diam amet</p>
+				<input type="button" class="pbutt" value="EXPLORE" >
+			</div>
+			<!-- <div class="triangle-right"></div> -->
+			<div class="aboutlist">
+				<img src="images/b3.jpg" class="listimg">
+				<div class="triangle-right"></div>
+			</div>
+			<div class="aboutlist">
+			    <h3 class="btt">Play Ground</h3>
+				<p class="bttitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+				<p class="btp">
+				Praesent dignissim viverra est,sedbibendum ligula congue non.Sed ac niset felis gravida commodo?Suspendisse
+				eget ullamcorper ipsum.Suspendisse
+				diam amet</p>
+				<input type="button" class="pbutt" value="EXPLORE" >
+			</div>
+			<!-- <div class="triangle-right"></div> -->
+			<div class="aboutlist">
+				<img src="images/b4.jpg" class="listimg">
+				<div class="triangle-right"></div>
+			</div>
+		</div>
+	</div>
+	<!-- gallery区 -->
+	<div class="gallery">
+	    <h2>GALLERY</h2>
+		<div class="line"></div>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industy's standard dummy text ever since the 1500s</p>
+
+		<div class="show">
+			<dl class="course">
+				<dt class="pic"><img src="images/03-01.jpg"></dt>
+				<dd class="picex">ONE</dd>
+			</dl>
+			<dl class="course">
+				<dt class="pic"><img src="images/03-02.jpg"></dt>
+				<dd class="picex">TWO</dd>
+			</dl>
+			<dl class="course">
+				<dt class="pic"><img src="images/03-03.jpg"></dt>
+				<dd class="picex">THREE</dd>
+			</dl>
+			<dl class="course">
+				<dt class="pic"><img src="images/03-04.jpg"></dt>
+				<dd class="picex">FOUR</dd>
+			</dl>
+			<dl class="course">
+				<dt class="pic"><img src="images/03-05.jpg"></dt>
+				<dd class="picex">FIVE</dd>
+			</dl>
+			<dl class="course">
+				<dt class="pic"><img src="images/03-06.jpg"></dt>
+				<dd class="picex">SIX</dd>
+			</dl>
+		</div>
+	</div>
+	<!-- 页脚区 -->
+	<div class="footer">
+		<p>&copy;&nbsp;2016&nbsp;im.com 京备123456号</p>
+	</div>
+ </div>
+
+ <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+	<script src="top.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
 </html>
