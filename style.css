@@ -60,7 +60,7 @@
 }
 .normal{
 	display: none;
-	
+	width: 100%;
 	max-width: 1200px;
 }
 .active{
