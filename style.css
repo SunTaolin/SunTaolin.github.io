@@ -4,7 +4,8 @@
 	font-family: "微软雅黑";
 }
 .contain{
-	width:100%;
+	width:90%;
+	margin: 0 auto;
 }
 /*头部*/
 .header,.footer{
